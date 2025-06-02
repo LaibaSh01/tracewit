@@ -60,7 +60,7 @@ export default function Product() {
                     playsInline
                     className={styles.video_element}
                   >
-                    <source src="/images/Product1.mp4" type="video/mp4" />
+                    <source src="/images/Product1.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -204,7 +204,7 @@ export default function Product() {
                     playsInline
                     className={styles.video_element}
                   >
-                    <source src="/images/Product3.mp4" type="video/mp4" />
+                    <source src="/images/Product3.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
