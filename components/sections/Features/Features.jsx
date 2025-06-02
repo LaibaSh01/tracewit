@@ -4,6 +4,9 @@ import Thunder from "@/public/images/Thunder.png";
 import Programming from "@/public/svgs/Programming";
 import PulsingLogo from "@/public/svgs/PulsingLogo";
 import CircleLogo from "@/public/images/CircleLogo.png";
+import Platform from "@/public/svgs/Platform";
+import Analytics from "@/public/svgs/Analytics";
+import Pipeline from "@/public/svgs/Pipeline";
 
 export default function Features() {
   return (
@@ -44,7 +47,7 @@ export default function Features() {
             <div className={styles.feature_item}>
               <div className={styles.icon_container}>
                 <div className={styles.inner_container}>
-                  <Programming />
+                  <Platform />
                 </div>
               </div>
               <div className={styles.text}>
@@ -58,7 +61,7 @@ export default function Features() {
             <div className={styles.feature_item}>
               <div className={styles.icon_container}>
                 <div className={styles.inner_container}>
-                  <Programming />
+                  <Analytics />
                 </div>
               </div>
               <div className={styles.text}>
@@ -72,7 +75,7 @@ export default function Features() {
             <div className={styles.feature_item}>
               <div className={styles.icon_container}>
                 <div className={styles.inner_container}>
-                  <Programming />
+                  <Pipeline />
                 </div>
               </div>
               <div className={styles.text}>
