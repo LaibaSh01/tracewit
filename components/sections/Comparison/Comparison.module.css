@@ -1,0 +1,183 @@
+.comparison {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15rem 0;
+}
+
+.comparison_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.2rem;
+  padding: 0 5rem;
+}
+
+.comparison_content .comparison_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.comparison_top .label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid var(--primary);
+  border-radius: 1000px;
+  padding: 0.95rem 2rem;
+}
+
+.comparison_top .label h6 {
+  color: var(--primary);
+  font-size: 1.55rem;
+  font-weight: 300;
+}
+
+.comparison_top .heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.comparison_top .heading h2 {
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+}
+
+.comparison_top .heading h2 span {
+  color: var(--primary);
+  font-style: italic;
+  font-weight: 300;
+  font-family: var(--font-playfair);
+}
+
+.comparison_top .heading p {
+  font-size: 1.85rem;
+  color: var(--zinc-400);
+  font-weight: 300;
+  text-align: center;
+  width: 58%;
+  line-height: 28px;
+}
+
+.comparison_content .comparison_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+}
+
+.comparison_grid .comparison_grid_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.2rem;
+}
+
+.comparison_grid .comparison_grid_item .company_name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.comparison_grid_item .company_name h5 {
+  color: var(--white);
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.comparison_grid_item .comparison_list_container {
+  width: 100%;
+  border-radius: 22px;
+  background: linear-gradient(
+    180deg,
+    rgba(204, 254, 5, 0.4) 0%,
+    rgba(122, 152, 3, 0) 100%
+  );
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.comparison_grid_item .comparison_list_container.others {
+  background: #0b0b0b;
+}
+
+.comparison_list_container.others .comparison_list .list_item .text h6 {
+  color: var(--zinc-400);
+}
+
+.comparison_list_container.others .comparison_list .list_item .divider {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.28) 50.96%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.comparison_grid_item .comparison_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.2rem 2.2rem;
+  background-color: #0b0b0b;
+  border-radius: 22px;
+  gap: 2rem;
+}
+
+.comparison_list .list_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.list_item .text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.list_item .text h6 {
+  color: var(--zinc-200);
+  font-size: 1.65rem;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+.list_item .divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 50.96%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
