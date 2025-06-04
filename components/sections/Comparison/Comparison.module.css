@@ -102,21 +102,26 @@
   font-size: 2.2rem;
   font-weight: 400;
 }
-
 .comparison_grid_item .comparison_list_container {
   width: 100%;
   border-radius: 22px;
-  background: linear-gradient(
-    180deg,
-    rgba(204, 254, 5, 0.4) 0%,
-    rgba(122, 152, 3, 0) 100%
-  );
   padding: 0.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(204, 254, 5, 0.4),
+    rgba(122, 152, 3, 0)
+  );
 }
+
+
+
+
 
 .comparison_grid_item .comparison_list_container.others {
   background: #0b0b0b;

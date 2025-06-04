@@ -22,19 +22,19 @@ export default function LayerOne() {
       <foreignObject x="0" y="71" width="547" height="346">
         <div
           xmlns="http://www.w3.org/1999/xhtml"
-           style={{
-    backdropFilter: 'blur(8px)',
-    clipPath: 'url(#bgblur_0_608_1112_clip_path)',
-    height: '40%',
-    width: '100%',
-  }}
+          style={{
+            backdropFilter: "blur(8px)",
+            clipPath: "url(#bgblur_0_608_1112_clip_path)",
+            height: "40%",
+            width: "100%",
+          }}
         ></div>
       </foreignObject>
       <g filter="url(#filter2_d_2_3)" data-figma-bg-blur-radius="16">
         <path
           d="M271.903 383L30 240.799L277.492 97L517 240.799L271.903 383Z"
           fill="url(#paint1_linear_2_3)"
-          shapeRendering="crispEdges"
+          shape-rendering="crispEdges"
         />
       </g>
       <g filter="url(#filter3_d_2_3)">
@@ -43,26 +43,10 @@ export default function LayerOne() {
           fill="#FAFAFA"
         />
       </g>
-      <path
-        d="M202.001 680C223.908 656.17 274.113 519.181 270.5 465"
-        stroke="url(#paint2_linear_2_3)"
-      />
-      <path
-        d="M419 683C370.001 642.433 298.109 572.401 272.011 463"
-        stroke="url(#paint3_linear_2_3)"
-      />
-      <path
-        d="M314 683C304.468 649.889 272 490.091 272 463"
-        stroke="url(#paint4_linear_2_3)"
-      />
-      <path
-        d="M93.0012 680C150.983 646.309 246.507 545.001 271.506 463.002"
-        stroke="url(#paint5_linear_2_3)"
-      />
       <g filter="url(#filter4_d_2_3)">
         <path
           d="M271.903 286L30 143.799L277.492 0L517 143.799L271.903 286Z"
-          fill="url(#paint6_linear_2_3)"
+          fill="url(#paint2_linear_2_3)"
         />
       </g>
       <g filter="url(#filter5_d_2_3)">
@@ -71,6 +55,73 @@ export default function LayerOne() {
           fill="#FAFAFA"
         />
       </g>
+      <g class="flowing-group">
+        <path
+          d="M201.667 679.604C223.573 655.774 275.231 516.785 271.619 462.604"
+          stroke="#27272A"
+          stroke-width="1"
+          fill="none"
+        />
+
+        <path
+          class="flowing-line"
+          d="M201.667 679.604C223.573 655.774 275.231 516.785 271.619 462.604"
+          stroke="url(#paint3_linear_2_3)"
+          stroke-width="1"
+          fill="none"
+        />
+      </g>
+      <g class="flowing-group">
+        <path
+          d="M313.963 682.604C304.431 649.494 271.963 489.695 271.963 462.604"
+          stroke="#27272A"
+          stroke-width="1"
+          fill="none"
+        />
+
+        <path
+          class="flowing-line"
+          d="M313.963 682.604C304.431 649.494 271.963 489.695 271.963 462.604"
+          stroke="url(#paint3_linear_2_3)"
+          stroke-width="1"
+          fill="none"
+        />
+      </g>
+
+      <g class="flowing-group">
+        <path
+          d="M418.902 682.62C369.903 642.054 298.061 572.004 271.962 462.604"
+          stroke="#27272A"
+          stroke-width="1"
+          fill="none"
+        />
+
+        <path
+          class="flowing-line"
+          d="M418.902 682.62C369.903 642.054 298.061 572.004 271.962 462.604"
+          stroke="url(#paint3_linear_2_3)"
+          stroke-width="1"
+          fill="none"
+        />
+      </g>
+
+      <g class="flowing-group">
+        <path
+          d="M91.8443 679.604C149.826 645.913 245.844 544.604 270.842 462.605"
+          stroke="#27272A"
+          stroke-width="1"
+          fill="none"
+        />
+
+        <path
+          class="flowing-line"
+          d="M91.8443 679.604C149.826 645.913 245.844 544.604 270.842 462.605"
+          stroke="url(#paint3_linear_2_3)"
+          stroke-width="1"
+          fill="none"
+        />
+      </g>
+
       <defs>
         <filter
           id="filter0_d_2_3"
@@ -79,9 +130,9 @@ export default function LayerOne() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -114,9 +165,9 @@ export default function LayerOne() {
           width="143.391"
           height="88.627"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -149,9 +200,9 @@ export default function LayerOne() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -187,9 +238,9 @@ export default function LayerOne() {
           width="186.871"
           height="114.339"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -222,9 +273,9 @@ export default function LayerOne() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -257,9 +308,9 @@ export default function LayerOne() {
           width="237.406"
           height="152.274"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -293,8 +344,8 @@ export default function LayerOne() {
           y2="463"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#27272A" />
-          <stop offset="1" stopColor="#868690" />
+          <stop stop-color="#27272A" />
+          <stop offset="1" stop-color="#868690" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_2_3"
@@ -304,63 +355,24 @@ export default function LayerOne() {
           y2="383"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#CCFE05" />
-          <stop offset="1" stopColor="#868690" stopOpacity="0.25" />
+          <stop stop-color="#CCFE05" />
+          <stop offset="1" stop-color="#868690" stop-opacity="0.25" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_2_3"
-          x1="218.01"
-          y1="684.5"
-          x2="222.191"
-          y2="477"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.572115" stopColor="#CCFE05" />
-          <stop offset="1" stopColor="#CCFE05" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint3_linear_2_3"
-          x1="353.958"
-          y1="686.621"
-          x2="268.53"
-          y2="411.22"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#CCFE05" />
-          <stop offset="1" stopColor="#CCFE05" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint4_linear_2_3"
-          x1="298.832"
-          y1="662.972"
-          x2="299.982"
-          y2="450.068"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#CCFE05" />
-          <stop offset="1" stopColor="#CCFE05" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint5_linear_2_3"
-          x1="256.917"
-          y1="716.636"
-          x2="342.345"
-          y2="441.235"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#CCFE05" />
-          <stop offset="1" stopColor="#CCFE05" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint6_linear_2_3"
           x1="273.5"
           y1="0"
           x2="273.5"
           y2="286"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#27272A" />
-          <stop offset="1" stopColor="#868690" />
+          <stop stop-color="#27272A" />
+          <stop offset="1" stop-color="#868690" />
+        </linearGradient>
+        <linearGradient id="paint3_linear_2_3" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#CCFE05" stop-opacity="0" />
+          <stop offset="50%" stop-color="#CCFE05" stop-opacity="1" />
+          <stop offset="100%" stop-color="#CCFE05" stop-opacity="0" />
         </linearGradient>
       </defs>
     </svg>

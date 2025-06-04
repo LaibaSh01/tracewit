@@ -40,8 +40,74 @@ a {
   text-decoration: none;
 }
 
-button, a {
+button,
+a {
   font-family: var(--font-inter);
+}
+
+.flowing-line {
+  stroke-dasharray: 50 500;
+  stroke-dashoffset: 0;
+  animation: dashMove 3s linear infinite;
+}
+
+@keyframes dashMove {
+  to {
+    stroke-dashoffset: 550;
+  }
+}
+.flowing-line-reverse {
+  stroke-dasharray: 50 500;
+  stroke-dashoffset: 0;
+  animation: dashMove2 3s linear infinite;
+}
+
+@keyframes dashMove2 {
+  from {
+    stroke-dashoffset: 550;
+  }
+}
+
+/* .delay-1 {
+  animation-delay: -0s;
+}
+.delay-2 {
+  animation-delay: -0.5s;
+}
+.delay-3 {
+  animation-delay: -1s;
+}
+.delay-4 {
+  animation-delay: -1.5s;
+} */
+
+.flowing-line-3 {
+  stroke-dasharray: 50 500;
+  stroke-dashoffset: 0;
+  animation: dashFlow3 3s linear infinite;
+}
+
+@keyframes dashFlow3 {
+  from {
+    stroke-dashoffset: -550;
+  }
+}
+
+.floating-group {
+  animation: floatY 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes floatY {
+  0% {
+    transform: translateY(6px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(6px);
+  }
 }
 
 @media only screen and (max-width: 1000px) {

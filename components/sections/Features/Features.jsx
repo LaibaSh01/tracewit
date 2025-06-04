@@ -86,11 +86,15 @@ export default function Features() {
                 </p>
               </div>
             </div>
+<div className={styles.pulsing_logo_wrapper}>
+  <div className={styles.pulsing_logo}>
+    <Image src={CircleLogo} alt="circle logo" />
+    <span className={styles.pulse_ring}></span>  {/* Third pulse ring */}
+  </div>
+</div>
 
-            <div className={styles.pulsing_logo}>
-              <PulsingLogo />
-              <Image src={CircleLogo} alt="circle logo" />
-            </div>
+
+
             <div className={styles.divider}>
               <div className={styles.flowing_linear}></div>
             </div>
