@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/components/ui/Label.module.css";
-import Thunder from "@/public/images/thunder.png"; 
+import Thunder from "@/public/images/Thunder.png"; 
 
 export default function Label({ text }) {
   return (
