@@ -77,6 +77,20 @@ a {
   }
 }
 
+.flowing-line-hero {
+  stroke-dasharray: 200 1000; 
+  stroke-dashoffset: 0;
+  animation: dashMoveHero 2s linear infinite;
+}
+
+@keyframes dashMoveHero {
+  to {
+    stroke-dashoffset: 1200; 
+  }
+}
+
+
+
 /* .delay-1 {
   animation-delay: -0s;
 }
