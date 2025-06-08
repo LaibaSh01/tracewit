@@ -89,6 +89,17 @@ a {
   }
 }
 
+.flowing-line-delay-1 {
+  animation-delay: 0.3s;
+}
+
+.flowing-line-delay-2 {
+  animation-delay: 0.6s;
+}
+
+.flowing-line-delay-3 {
+  animation-delay: 0.9s;
+}
 
 
 /* .delay-1 {

@@ -35,7 +35,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-1"
           d="M798 388C798 388 873.206 382.122 920.35 372.52C963.104 363.812 986.782 357.04 1027.91 342.85C1065.54 329.867 1086.11 321.012 1122.03 304.15C1149.85 291.09 1164.97 282.803 1191.84 268.085L1191.94 268.03C1223.46 250.766 1241.3 241.224 1271.27 221.59C1309.26 196.7 1329.08 180.623 1364.04 151.93C1429.77 97.9757 1520 1 1520 1"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -50,7 +50,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-2"
           d="M798 395C798 395 861.17 391.72 900.969 389.056C900.969 389.056 967.589 384.942 1010.14 380.733C1064.66 375.34 1095.21 371.607 1149.29 362.9C1204.43 354.023 1235.26 348.181 1289.65 335.556C1356.94 319.935 1460 288 1460 288"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -65,7 +65,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-3"
           d="M798 398.5C798 398.5 917.179 398.452 992.903 398.452C1068.63 398.452 1111.08 399.685 1186.81 398.452C1304.05 396.544 1487 386 1487 386"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -81,7 +81,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-1"
           d="M798 402C798 402 889.726 401.842 948.357 405.294C1012 409.041 1047.79 411.207 1110.94 419.059C1170.07 426.411 1203.16 431.521 1261.3 443.412C1354.89 462.555 1496 508 1496 508"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -96,7 +96,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-3"
           d="M798 390.5C798 390.5 850.021 386.892 882.525 383.035C932.938 377.052 961.111 372.082 1010.6 360.747C1059.08 349.642 1085.93 341.698 1133.1 325.921C1198.78 303.953 1235.89 290.955 1297.37 259.057C1332.63 240.762 1351.43 228.645 1385.07 207.515C1461.88 159.269 1573 71 1573 71"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -126,7 +126,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-2"
           d="M798 394C798 394 833.828 390.876 856.145 388.875C856.145 388.875 891.014 386.16 913.29 383.75C958.133 378.898 983.208 375.188 1027.58 367.094C1077.13 358.055 1104.83 352.141 1153.43 338.906C1202.23 325.613 1229.51 317.382 1276.7 299.188C1316.08 284.006 1337.45 273.68 1375.58 255.625C1426.65 231.448 1504 189 1504 189"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -177,7 +177,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-1"
           d="M798 397C798 397 890.113 394.031 948.496 392.176C993.519 390.746 1018.78 390.417 1063.79 388.559C1124.19 386.065 1158.05 384.32 1218.35 380.118C1318.02 373.171 1473 356 1473 356"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -273,7 +273,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-3"
           d="M798 400C798 400 906.944 401.245 976.089 402.604C1061.31 404.279 1109.1 406.369 1194.15 412.177C1317.85 420.625 1510 445 1510 445"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -335,7 +335,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-2"
           d="M798 404C798 404 910.702 407.504 981.547 416.503C1077.02 428.631 1130.14 440.544 1222.51 466.517C1293.96 486.607 1333.76 499.492 1402.14 527.644C1470.96 555.981 1573 611 1573 611"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -378,7 +378,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-1"
           d="M722 388C722 388 646.794 382.122 599.65 372.52C556.896 363.812 533.218 357.04 492.089 342.85C454.461 329.867 433.892 321.012 397.974 304.15C370.155 291.09 355.027 282.803 328.161 268.085L328.06 268.03C296.544 250.766 278.704 241.224 248.734 221.59C210.74 196.7 190.922 180.623 155.963 151.93C90.2257 97.9757 0 1 0 1"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -393,7 +393,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-2"
           d="M722 395C722 395 658.83 391.72 619.031 389.056C619.031 389.056 552.411 384.942 509.864 380.733C455.338 375.34 424.794 371.607 370.706 362.9C315.567 354.023 284.739 348.181 230.348 335.556C163.055 319.935 60 288 60 288"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -408,7 +408,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-3"
           d="M722 398.5C722 398.5 602.821 398.452 527.097 398.452C451.374 398.452 408.917 399.685 333.195 398.452C215.948 396.544 33 386 33 386"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -423,7 +423,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-2"
           d="M722 402C722 402 630.274 401.842 571.643 405.294C507.995 409.041 472.208 411.207 409.061 419.059C349.932 426.411 316.841 431.521 258.704 443.412C165.106 462.555 24 508 24 508"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -438,7 +438,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-1"
           d="M722 390.5C722 390.5 669.979 386.892 637.475 383.035C587.062 377.052 558.889 372.082 509.403 360.747C460.923 349.642 434.068 341.698 386.899 325.921C321.217 303.953 284.115 290.955 222.633 259.057C187.371 240.762 168.573 228.645 134.932 207.515C58.1188 159.269 -53 71 -53 71"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -479,7 +479,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-3"
           d="M722 394C722 394 686.172 390.876 663.855 388.875C663.855 388.875 628.986 386.16 606.71 383.75C561.867 378.898 536.792 375.188 492.421 367.094C442.873 358.055 415.165 352.141 366.574 338.906C317.768 325.613 290.485 317.382 243.295 299.188C203.921 284.006 182.552 273.68 144.415 255.625C93.3484 231.448 16 189 16 189"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -515,7 +515,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-1"
           d="M722 397C722 397 629.887 394.031 571.504 392.176C526.481 390.746 501.22 390.417 456.214 388.559C395.811 386.065 361.949 384.32 301.65 380.118C201.979 373.171 47 356 47 356"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -545,7 +545,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-2"
           d="M722 400C722 400 613.056 401.245 543.911 402.604C458.693 404.279 410.902 406.369 325.853 412.177C202.154 420.625 10 445 10 445"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
@@ -560,7 +560,7 @@ export default function HeroFlowingPipes() {
           fill="none"
         />
         <path
-          className="flowing-line-hero"
+          className="flowing-line-hero flowing-line-delay-3"
           d="M722 404C722 404 609.298 407.504 538.453 416.503C442.985 428.631 389.855 440.544 297.491 466.517C226.045 486.607 186.236 499.492 117.864 527.644C49.0448 555.981 -53 611 -53 611"
           stroke="url(#paint3_linear_2_3)"
           strokeWidth="1"
