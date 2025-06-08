@@ -1,12 +1,12 @@
 import styles from "./Features.module.css";
 import Image from "next/image";
-import Thunder from "@/public/images/Thunder.png";
 import Programming from "@/public/svgs/Programming";
 import PulsingLogo from "@/public/svgs/PulsingLogo";
 import CircleLogo from "@/public/images/CircleLogo.png";
 import Platform from "@/public/svgs/Platform";
 import Analytics from "@/public/svgs/Analytics";
 import Pipeline from "@/public/svgs/Pipeline";
+import Label from "@/components/ui/Label";
 
 export default function Features() {
   return (
@@ -14,10 +14,7 @@ export default function Features() {
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
-            <div className={styles.label}>
-              <Image src={Thunder} alt="thunder" width={18} />
-              <h6>Features</h6>
-            </div>
+            <Label text="Features" />
             <div className={styles.heading}>
               <h2>
                 Built to <span>Replace</span> Complexity with Clarity

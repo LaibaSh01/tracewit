@@ -1,4 +1,3 @@
-import GridLines from "@/public/svgs/GridLines";
 import styles from "./Hero.module.css";
 import Image from "next/image";
 import Avatar1 from "@/public/images/Avatar1.png";
@@ -6,10 +5,7 @@ import Avatar2 from "@/public/images/Avatar2.png";
 import Avatar3 from "@/public/images/Avatar3.png";
 import Avatar4 from "@/public/images/Avatar4.png";
 import Avatar5 from "@/public/images/Avatar5.png";
-import CircleDoodle from "@/public/svgs/CircleDoodle";
-import FlowingPipes from "@/public/svgs/FlowingPipes";
-import FlowingPipesLeft from "@/public/svgs/FlowingPipesLeft";
-import Logo2 from "@/public/images/Logo2.png";
+import HeroFlowingPipes from "@/public/svgs/HeroFlowingPipes";
 
 export default function Hero() {
   return (
@@ -50,9 +46,7 @@ export default function Hero() {
             <button className={styles.cta_button}>Join Now</button>
           </div>
           <div className={styles.flowing_lines}>
-            <FlowingPipesLeft />
-            <Image src={Logo2} alt="Logo" />
-            <FlowingPipes />
+            <HeroFlowingPipes />
           </div>
         </div>
       </div>

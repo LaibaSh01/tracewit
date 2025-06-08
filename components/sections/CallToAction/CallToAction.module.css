@@ -5,13 +5,35 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
-.call_to_action > svg {
-  position: absolute;
-  left: 0;
-  top: 0;
+.call_to_action_inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.line-left,
+.line-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-57%);
+  z-index: -1;
+}
+
+.line-left {
+  left: -160px;
+}
+
+.line-right {
+  right: -160px;
+}
+
 
 .content_container {
   width: 750px;
@@ -25,6 +47,9 @@
   margin: 0 auto;
   overflow: hidden;
   border-radius: 22px;
+  background-color: #0b0b0b;
+  padding: 3rem 2rem;
+  text-align: center;
 }
 
 .content_container h2 {
@@ -32,7 +57,6 @@
   font-size: 3.4rem;
   font-weight: 500;
   color: var(--white);
-  text-align: center;
   line-height: 48px;
   letter-spacing: -0.3px;
 }
@@ -45,33 +69,10 @@
 
 .content_container p {
   width: 65%;
-  text-align: center;
   font-size: 1.6rem;
   font-weight: 300;
   color: var(--zinc-400);
   line-height: 28px;
-}
-
-.content_glow1 {
-  width: 245.14px;
-  height: 245.14px;
-  background-color: var(--primary);
-  transform: rotate(25.22deg);
-  left: -130px;
-  position: absolute;
-  top: -90px;
-  filter: blur(100px);
-}
-
-.content_glow2 {
-  width: 245.14px;
-  height: 245.14px;
-  background-color: var(--primary);
-  transform: rotate(25.22deg);
-  right: -130px;
-  position: absolute;
-  bottom: -90px;
-  filter: blur(100px);
 }
 
 .call_to_action button {
@@ -101,4 +102,50 @@
 .call_to_action button span svg {
   width: 16px;
   height: 16px;
+}
+
+.content_glow1,
+.content_glow2 {
+  width: 245.14px;
+  height: 245.14px;
+  background-color: var(--primary);
+  transform: rotate(25.22deg);
+  position: absolute;
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.content_glow1 {
+  left: -130px;
+  top: -90px;
+}
+
+.content_glow2 {
+  right: -130px;
+  bottom: -90px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content_container {
+    width: 90%;
+    height: auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .content_container h2 {
+    font-size: 2.6rem;
+    line-height: 1.4;
+    width: 100%;
+  }
+
+  .content_container p {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .line-left,
+  .line-right {
+    display: none;
+  }
 }

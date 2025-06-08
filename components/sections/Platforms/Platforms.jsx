@@ -1,12 +1,12 @@
 import styles from "./Platforms.module.css";
 import Image from "next/image";
-import Thunder from "@/public/images/Thunder.png";
 import ABProxy from "@/public/images/ABProxy.png";
 import Grafwit from "@/public/images/Grafwit.png";
 import Terrawit from "@/public/images/Terrawit.png";
 import Streamwit from "@/public/images/Streamwit.png";
 import LayerOne from "@/public/svgs/LayerOne";
 import LayerTwo from "@/public/svgs/LayerTwo";
+import Label from "@/components/ui/Label";
 
 export default function Platforms() {
   return (
@@ -14,10 +14,7 @@ export default function Platforms() {
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
-            <div className={styles.label}>
-              <Image src={Thunder} alt="thunder" width={18} />
-              <h6>Platforms</h6>
-            </div>
+            <Label text="Platforms" />
             <div className={styles.heading}>
               <h2>
                 Tracewit <span>Platform</span> at a Glance

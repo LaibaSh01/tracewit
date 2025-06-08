@@ -2,11 +2,11 @@
 import Marquee from "react-fast-marquee";
 import styles from "./Advantages.module.css";
 import Image from "next/image";
-import Thunder from "@/public/images/Thunder.png";
 import Advantage1 from "@/public/images/Advantage1.png";
 import Advantage2 from "@/public/images/Advantage2.png";
 import Advantage3 from "@/public/images/Advantage3.png";
 import Advantage4 from "@/public/images/Advantage4.png";
+import Label from "@/components/ui/Label";
 
 export default function Advantages() {
   return (
@@ -14,10 +14,7 @@ export default function Advantages() {
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
-            <div className={styles.label}>
-              <Image src={Thunder} alt="thunder" width={18} />
-              <h6>Advantages</h6>
-            </div>
+            <Label text="Advantages" />
             <div className={styles.heading}>
               <h2>
                 Why Teams <span>Choose</span> Tracewit
@@ -32,7 +29,12 @@ export default function Advantages() {
         </div>
       </div>
       <div className={styles.container}>
-        <Marquee speed={50} gradient={true} gradientColor="#0b0b0b" pauseOnHover={true}>
+        <Marquee
+          speed={50}
+          gradient={true}
+          gradientColor="#0b0b0b"
+          pauseOnHover={true}
+        >
           <div className={styles.marquee_content}>
             <div className={styles.card}>
               <div className={styles.top_info}>
@@ -106,31 +108,36 @@ export default function Advantages() {
             </div>
           </div>
         </Marquee>
-        <Marquee speed={50} gradient={true} gradientColor="#0b0b0b" direction="right" pauseOnHover={true}>
+        <Marquee
+          speed={50}
+          gradient={true}
+          gradientColor="#0b0b0b"
+          direction="right"
+          pauseOnHover={true}
+        >
           <div className={styles.marquee_content}>
             <div className={styles.card}>
               <div className={styles.top_info}>
                 <Image src={Advantage1} alt="advantage" />
-                <h6>Low-Code Experimentation</h6>
+                <h6>Unified Observability & Testing</h6>
               </div>
-              <p>Launch A/B tests without engineering involvement</p>
+              <p>Monitor user behavior, infra, and experiments from one platform.</p>
             </div>
             <div className={styles.card}>
               <div className={styles.top_info}>
                 <Image src={Advantage2} alt="advantage" />
-                <h6>Flexible Data Destinations</h6>
+                <h6>Democratized Insights</h6>
               </div>
               <p>
-                Route data to any lake, warehouse, or dashboard — no vendor
-                lock-in{" "}
+                Product, marketing, and ops teams can self-serve without SQL.
               </p>
             </div>
             <div className={styles.card}>
               <div className={styles.top_info}>
                 <Image src={Advantage3} alt="advantage" />
-                <h6>AI-Powered Product Analytics</h6>
+                <h6>Developer Experience</h6>
               </div>
-              <p>Natural language + LLM = instant answers and dashboards</p>
+              <p>Invisible agents, minimal integration, and native tracing.</p>
             </div>
             <div className={styles.card}>
               <div className={styles.top_info}>

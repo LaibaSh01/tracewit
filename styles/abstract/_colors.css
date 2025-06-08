@@ -2,7 +2,9 @@
   /* Solid Colors */
   --white: #ffffff;
   --black: #000000;
-  --primary: #CCFE05;
+  --primary: #ccfe05;
+  --primary-10: rgba(204, 254, 5, 0.1);
+  --bg-dark: #161616;
 
   /* White Opacity Scale */
   --white-1: rgba(255, 255, 255, 0.1);

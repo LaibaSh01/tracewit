@@ -1,10 +1,9 @@
 import styles from "./Benefits.module.css";
-import Image from "next/image";
-import Thunder from "@/public/images/Thunder.png";
 import DownGraph from "@/public/svgs/DownGraph";
 import Settings from "@/public/svgs/Settings";
 import Layer from "@/public/svgs/Layer";
 import CloudChange from "@/public/svgs/CloudChange";
+import Label from "@/components/ui/Label";
 
 export default function Benefits() {
   return (
@@ -12,10 +11,7 @@ export default function Benefits() {
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
-            <div className={styles.label}>
-              <Image src={Thunder} alt="thunder" width={18} />
-              <h6>Benefits</h6>
-            </div>
+            <Label text="Benefits" />
             <div className={styles.heading}>
               <h2>
                 Top 4 <span>Indicators</span> Across All Verticals

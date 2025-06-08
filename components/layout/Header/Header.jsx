@@ -11,11 +11,11 @@ export default function Header() {
           <Image src={Logo} alt="Tracewit Logo" />
           <nav className={styles.nav}>
             <ul>
-              <li>Features</li>
-              <li>Resources</li>
-              <li>Prices</li>
-              <li>Faqs</li>
+              <li>Products</li>
+              <li>Platforms</li>
+              <li>Benefits</li>
               <li>Teams</li>
+              <li>Faqs</li>
             </ul>
           </nav>
           <FilledButton />

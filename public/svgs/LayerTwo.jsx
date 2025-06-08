@@ -115,19 +115,19 @@ export default function LayerTwo() {
         <g>
           <path
             d="M290 768.935V739.609L324.279 758.13L357 741.152V772.022L324.279 789L290 768.935Z"
-            fill="white"
+            fill="#CCFE05"
             fillOpacity="0.65"
           />
           <path
             d="M290 739.609V768.935L324.279 789M290 739.609L324.279 758.13M290 739.609L324.279 718L357 739.609M324.279 789L357 772.022V741.152L324.279 758.13M324.279 789V758.13"
-            stroke="white"
+            stroke="#CCFE05"
             strokeOpacity="0.65"
           />
           <path
             d="M324 718L291 739.125L324 757L357 740.75L324 718Z"
-            fill="white"
+            fill="#CCFE05"
             fillOpacity="0.65"
-            stroke="white"
+            stroke="#CCFE05"
             strokeOpacity="0.65"
           />
           <path
@@ -138,19 +138,19 @@ export default function LayerTwo() {
         <g>
           <path
             d="M186 773.935V744.609L220.279 763.13L253 746.152V777.022L220.279 794L186 773.935Z"
-            fill="white"
+            fill="#CCFE05"
             fillOpacity="0.65"
           />
           <path
             d="M186 744.609V773.935L220.279 794M186 744.609L220.279 763.13M186 744.609L220.279 723L253 744.609M220.279 794L253 777.022V746.152L220.279 763.13M220.279 794V763.13"
-            stroke="white"
+            stroke="#CCFE05"
             strokeOpacity="0.65"
           />
           <path
             d="M220 723L187 744.125L220 762L253 745.75L220 723Z"
-            fill="white"
+            fill="#CCFE05"
             fillOpacity="0.65"
-            stroke="white"
+            stroke="#CCFE05"
             strokeOpacity="0.65"
           />
           <path
@@ -164,19 +164,19 @@ export default function LayerTwo() {
             <g filter="url(#filter6_d_281_151)">
               <path
                 d="M290 865.935V836.609L324.279 855.13L357 838.152V869.022L324.279 886L290 865.935Z"
-                fill="white"
+                fill="#CCFE05"
                 fillOpacity="0.65"
               />
               <path
                 d="M290 836.609V865.935L324.279 886M290 836.609L324.279 855.13M290 836.609L324.279 815L357 836.609M324.279 886L357 869.022V838.152L324.279 855.13M324.279 886V855.13"
-                stroke="white"
+                stroke="#CCFE05"
                 strokeOpacity="0.65"
               />
               <path
                 d="M324 815L291 836.125L324 854L357 837.75L324 815Z"
-                fill="white"
+                fill="#CCFE05"
                 fillOpacity="0.65"
-                stroke="white"
+                stroke="#CCFE05"
                 strokeOpacity="0.65"
               />
             </g>
@@ -190,19 +190,19 @@ export default function LayerTwo() {
             <g filter="url(#filter7_d_281_151)">
               <path
                 d="M186 860.935V831.609L220.279 850.13L253 833.152V864.022L220.279 881L186 860.935Z"
-                fill="white"
+                fill="#CCFE05"
                 fillOpacity="0.65"
               />
               <path
                 d="M186 831.609V860.935L220.279 881M186 831.609L220.279 850.13M186 831.609L220.279 810L253 831.609M220.279 881L253 864.022V833.152L220.279 850.13M220.279 881V850.13"
-                stroke="white"
+                stroke="#CCFE05"
                 strokeOpacity="0.65"
               />
               <path
                 d="M220 810L187 831.125L220 849L253 832.75L220 810Z"
-                fill="white"
+                fill="#CCFE05"
                 fillOpacity="0.65"
-                stroke="white"
+                stroke="#CCFE05"
                 strokeOpacity="0.65"
               />
             </g>

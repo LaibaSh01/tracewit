@@ -60,10 +60,9 @@
 }
 
 .top .heading h2 span {
-  color: var(--primary);
-  font-style: italic;
-  font-weight: 300;
-  font-family: var(--font-playfair);
+  background: linear-gradient(to right, #ffffff 0%, #ccfe05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .top .heading p {

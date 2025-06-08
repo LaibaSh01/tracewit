@@ -7,90 +7,77 @@ import linkedin from "@/public/images/linkedin.png";
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} aria-labelledby="footer-heading">
       <div className="box">
         <div className={styles.content}>
+          <h2 id="footer-heading" className="sr-only">Footer</h2>
 
           <div className={styles.top}>
-            <div className={styles.company_info}>
-              <Image src={Logo} alt="logo" />
+            <address className={styles.company_info}>
+              <Image src={Logo} alt="Tracewit company logo" priority />
+
               <p>
                 Your trusted partner in AI solutions, creating smarter systems
                 for smarter businesses.
               </p>
-              <div className={styles.social_logo}>
-                <div className={styles.social_item}>
-                  <Image
-                    src={github}
-                    alt="social icon"
-                    width={28}
-                    height={28}
-                  />
-                </div>
-                <div className={styles.social_item}>
-                  <Image
-                    src={twitter}
-                    alt="social icon"
-                    width={28}
-                    height={28}
-                  />
-                </div>
-                <div className={styles.social_item}>
-                  <Image
-                    src={linkedin}
-                    alt="social icon"
-                    width={28}
-                    height={28}
-                  />
-                </div>
-              </div>
-            </div>
 
-            <div className={styles.company_links}>
+              <nav className={styles.social_logo} aria-label="Social Media">
+                <a
+                  href="https://github.com"
+                  className={styles.social_item}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our GitHub"
+                >
+                  <Image src={github} alt="GitHub icon" width={28} height={28} />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  className={styles.social_item}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Twitter"
+                >
+                  <Image src={twitter} alt="Twitter icon" width={28} height={28} />
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  className={styles.social_item}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our LinkedIn"
+                >
+                  <Image src={linkedin} alt="LinkedIn icon" width={28} height={28} />
+                </a>
+              </nav>
+            </address>
+
+            <nav className={styles.company_links} aria-label="Footer Navigation">
               <div className={styles.link}>
-                <h6>Products</h6>
+                <h3>Products</h3>
                 <ul>
-                  <li>Product Analytics</li>
-                  <li>Tracing Agent</li>
-                  <li>Data Pipeline</li>
-                  <li>Gatekeeper</li>
+                  <li><a href="/products/analytics">Product Analytics</a></li>
+                  <li><a href="/products/agent">Tracing Agent</a></li>
+                  <li><a href="/products/pipeline">Data Pipeline</a></li>
+                  <li><a href="/products/gatekeeper">Gatekeeper</a></li>
                 </ul>
               </div>
               <div className={styles.link}>
-                <h6>Links</h6>
+                <h3>Company</h3>
                 <ul>
-                  <li>About</li>
-                  <li>Blog</li>
-                  <li>Careers</li>
-                  <li>Changelog</li>
-                  <li>Contact Us</li>
-                  <li>Customers</li>
-                  <li>Partners</li>
-                  <li>Privacy Policy</li>
+                  <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </div>
-              <div className={styles.link}>
-                <h6>Resources</h6>
-                <ul>
-                  <li>Community</li>
-                  <li>Docs</li>
-                  <li>Guides</li>
-                  <li>Help</li>
-                  <li>Integrations</li>
-                  <li>Pricing</li>
-                  <li>Resources</li>
-                  <li>Solutions Partners</li>
-                </ul>
-              </div>
-            </div>
+            </nav>
           </div>
 
           <div className={styles.copyright}>
-            <p>&copy; 2025 Tracewit. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Tracewit. All rights reserved.</p>
           </div>
         </div>
       </div>
-      <div className={styles.footer_glow}></div>
+
+      <div className={styles.footer_glow} aria-hidden="true"></div>
     </footer>
   );
 }

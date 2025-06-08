@@ -1,10 +1,10 @@
 import styles from "./Comparison.module.css";
 import Image from "next/image";
-import Thunder from "@/public/images/Thunder.png";
 import Logo from "@/public/images/Logo2.png";
 import Building from "@/public/svgs/Building";
 import Tick from "@/public/svgs/Tick";
 import Cross from "@/public/svgs/Cross";
+import Label from "@/components/ui/Label";
 
 export default function Comparison() {
   return (
@@ -12,10 +12,7 @@ export default function Comparison() {
       <div className="box">
         <div className={styles.comparison_content}>
           <div className={styles.comparison_top}>
-            <div className={styles.label}>
-              <Image src={Thunder} alt="thunder" width={18} />
-              <h6>Comparison</h6>
-            </div>
+           <Label text="Comparison" />
             <div className={styles.heading}>
               <h2>
                 Why <span>Tracewit</span> Stands Out

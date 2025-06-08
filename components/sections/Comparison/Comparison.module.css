@@ -25,22 +25,6 @@
   gap: 3.2rem;
 }
 
-.comparison_top .label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  border: 1px solid var(--primary);
-  border-radius: 1000px;
-  padding: 0.95rem 2rem;
-}
-
-.comparison_top .label h6 {
-  color: var(--primary);
-  font-size: 1.55rem;
-  font-weight: 300;
-}
-
 .comparison_top .heading {
   width: 100%;
   display: flex;
@@ -58,10 +42,9 @@
 }
 
 .comparison_top .heading h2 span {
-  color: var(--primary);
-  font-style: italic;
-  font-weight: 300;
-  font-family: var(--font-playfair);
+  background: linear-gradient(to right, #ffffff 0%, #ccfe05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .comparison_top .heading p {
