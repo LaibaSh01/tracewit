@@ -6,7 +6,7 @@
   padding: 15rem 0;
 }
 
-.comparison_content {
+.content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   padding: 0 5rem;
 }
 
-.comparison_content .comparison_top {
+.content .top {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   gap: 3.2rem;
 }
 
-.comparison_top .heading {
+.top .heading {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -34,20 +34,20 @@
   gap: 1rem;
 }
 
-.comparison_top .heading h2 {
+.top .heading h2 {
   color: var(--white);
   font-size: 5rem;
   font-weight: 500;
   letter-spacing: -0.3px;
 }
 
-.comparison_top .heading h2 span {
+.top .heading h2 span {
   background: linear-gradient(to right, #ffffff 0%, #ccfe05 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.comparison_top .heading p {
+.top .heading p {
   font-size: 1.85rem;
   color: var(--zinc-400);
   font-weight: 300;
@@ -56,7 +56,7 @@
   line-height: 28px;
 }
 
-.comparison_content .comparison_grid {
+.content .comparison_grid {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -101,10 +101,6 @@
     rgba(122, 152, 3, 0)
   );
 }
-
-
-
-
 
 .comparison_grid_item .comparison_list_container.others {
   background: #0b0b0b;
@@ -168,4 +164,67 @@
     #ffffff 50.96%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+@media only screen and (max-width: 1160px) {
+  .content {
+    padding: 0;
+  }
+  .top .heading h2 {
+    font-size: 3.5rem;
+  }
+
+  .top .heading p {
+    width: 72%;
+    font-size: 1.65rem;
+  }
+
+  .content .comparison_grid {
+    gap: 2rem;
+  }
+
+  .comparison_grid_item .comparison_list {
+    padding: 2rem;
+  }
+
+  .comparison_grid_item .company_name h5 {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content .comparison_grid {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top .heading h2 {
+    font-size: 2.5rem;
+    line-height: 38px;
+  }
+
+  .top .heading p {
+    width: 100%;
+    font-size: 1.55rem;
+  }
+
+  .list_item .text h6 {
+    font-size: 1.55rem;
+  }
+
+  .comparison_grid .comparison_grid_item .company_name svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .comparison_grid_item .company_name h5 {
+    font-size: 1.65rem;
+  }
+
+  .comparison_grid_item .comparison_list_container,
+  .comparison_grid_item .comparison_list {
+    border-radius: 16px;
+  }
 }

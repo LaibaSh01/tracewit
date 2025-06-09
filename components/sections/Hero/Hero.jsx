@@ -10,7 +10,6 @@ import HeroFlowingPipes from "@/public/svgs/HeroFlowingPipes";
 export default function Hero() {
   return (
     <section id="hero" className={styles.hero}>
-      {/* <GridLines /> */}
       <div className="box">
         <div className={styles.hero_content}>
           <div className={styles.hero_top}>

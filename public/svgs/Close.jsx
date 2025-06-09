@@ -1,21 +1,21 @@
-export default function Cross() {
+export default function Close() {
   return (
     <svg
-      width="25"
-      height="24"
-      viewBox="0 0 24 24"
+      width="34"
+      height="34"
+      viewBox="0 0 34 34"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M8.24609 16.7279L16.7314 8.24264"
+        d="M12.7852 21.2426L21.2704 12.7574"
         stroke="#FAFAFA"
         stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
-        d="M16.7314 16.7279L8.24609 8.24263"
+        d="M21.2704 21.2426L12.7852 12.7574"
         stroke="#FAFAFA"
         stroke-width="1.5"
         stroke-linecap="round"

@@ -8,120 +8,87 @@ import Label from "@/components/ui/Label";
 
 export default function Comparison() {
   return (
-    <section className={styles.comparison}>
+    <section className={styles.comparison} aria-labelledby="comparison-heading">
       <div className="box">
-        <div className={styles.comparison_content}>
-          <div className={styles.comparison_top}>
-           <Label text="Comparison" />
+        <div className={styles.content}>
+          <div className={styles.top}>
+            <Label text="Comparison" />
             <div className={styles.heading}>
-              <h2>
+              <h2 id="comparison-heading">
                 Why <span>Tracewit</span> Stands Out
               </h2>
-              <p>See how we compare againts others in performance & growth.</p>
+              <p>See how we compare against others in performance & growth.</p>
             </div>
           </div>
-          <div className={styles.comparison_grid}>
-            <div className={styles.comparison_grid_item}>
-              <div className={styles.company_name}>
-                <Image src={Logo} alt="Logo" width={24} />
+          <div className={styles.comparison_grid} role="table" aria-label="Feature comparison between Tracewit and competitors">
+            <div className={styles.comparison_grid_item} role="rowgroup">
+              <div className={styles.company_name} role="rowheader">
+                <Image 
+                  src={Logo} 
+                  alt="Tracewit logo" 
+                  width={24} 
+                  height={24}
+                  aria-hidden="true"
+                />
                 <h5>Tracewit</h5>
               </div>
-              <div className={styles.comparison_list_container}>
-                <div className={styles.comparison_list}>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Tick />
-                      <h6>Low-Code Experimentation</h6>
+              <div className={styles.comparison_list_container} role="rowgroup">
+                <div className={styles.comparison_list} role="row">
+                  {[
+                    "Low-Code Experimentation",
+                    "Auto Event Tracking",
+                    "AI-Powered Insights",
+                    "End-to-End Observability",
+                    "Self-Learning Pipelines",
+                    "Security Intelligence"
+                  ].map((feature, index) => (
+                    <div 
+                      key={feature} 
+                      className={styles.list_item} 
+                      role="cell"
+                      aria-label={`Tracewit ${feature}`}
+                    >
+                      <div className={styles.text}>
+                        <Tick aria-hidden="true" />
+                        <h6>{feature}</h6>
+                      </div>
+                      {index < 5 && <div className={styles.divider} aria-hidden="true"></div>}
                     </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Tick />
-                      <h6>Auto Event Tracking</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Tick />
-                      <h6>AI-Powered Insights</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Tick />
-                      <h6>End-to-End Observability</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Tick />
-                      <h6>Self-Learning Pipelines</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Tick />
-                      <h6>Security Intelligence</h6>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>
-            <div className={styles.comparison_grid_item}>
-              <div className={styles.company_name}>
-                <Building />
-                <h5>others</h5>
+            <div className={styles.comparison_grid_item} role="rowgroup">
+              <div className={styles.company_name} role="rowheader">
+                <Building aria-hidden="true" />
+                <h5>Competitors</h5>
               </div>
               <div
                 className={`${styles.comparison_list_container} ${styles.others}`}
+                role="rowgroup"
               >
-                <div className={styles.comparison_list}>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Cross />
-                      <h6>Requires manual integration</h6>
+                <div className={styles.comparison_list} role="row">
+                  {[
+                    "Requires manual integration",
+                    "Manual coding required",
+                    "Dependent on data teams & delayed reports",
+                    "Fragmented toolchains",
+                    "Static rules & manual configs",
+                    "Security Intelligence"
+                  ].map((feature, index) => (
+                    <div 
+                      key={feature} 
+                      className={styles.list_item} 
+                      role="cell"
+                      aria-label={`Competitors ${feature}`}
+                    >
+                      <div className={styles.text}>
+                        <Cross aria-hidden="true" />
+                        <h6>{feature}</h6>
+                      </div>
+                      {index < 5 && <div className={styles.divider} aria-hidden="true"></div>}
                     </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Cross />
-                      <h6>Manual coding required</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Cross />
-                      <h6>Dependent on data teams & delayed reports</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Cross />
-                      <h6>Fragmented toolchains</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Cross />
-                      <h6>Static rules & manual configs</h6>
-                    </div>
-                    <div className={styles.divider}></div>
-                  </div>
-                  <div className={styles.list_item}>
-                    <div className={styles.text}>
-                      <Cross />
-                      <h6>Security Intelligence</h6>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>

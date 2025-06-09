@@ -41,6 +41,8 @@
   font-size: 5rem;
   font-weight: 500;
   letter-spacing: -0.3px;
+  line-height: 56px;
+  text-align: center;
 }
 
 .top .heading h2 span {
@@ -66,73 +68,150 @@
 }
 
 .benefits .container .card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    padding: 3.5rem;
-    border-radius: 22px;
-    border: 1px solid var(--zinc-800);
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 3.5rem;
+  border-radius: 22px;
+  border: 1px solid var(--zinc-800);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .card .text {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.15rem
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.15rem;
 }
 
 .card .text h4 {
-    color: var(--zinc-200);
-    font-size: 2.5rem;
-    font-weight: 500;
-    letter-spacing: -0.3px;
+  color: var(--zinc-200);
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  line-height: 32px;
+  text-align: center;
 }
 
 .card .text p {
-    width: 82%;
-    color: var(--zinc-400);
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: center;
+  width: 82%;
+  color: var(--zinc-400);
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
 }
 
 .card .icon_container {
-    width: 55px;
-    height: 55px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.12rem;
-    background: linear-gradient(138.89deg, #CCFE05 2.97%, #000000 51.81%, #7A9803 97.03%);
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.12rem;
+  background: linear-gradient(
+    138.89deg,
+    #ccfe05 2.97%,
+    #000000 51.81%,
+    #7a9803 97.03%
+  );
 }
 
 .card .icon_container .inner_container {
-    height: 100%;
-    width: 100%;
-    border-radius: 12px;
-    background-color: var(--zinc-800);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  background-color: var(--zinc-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card .card_glow {
-    width: 200px;
-    height: 81px;
-    background-color: var(--primary);
-    border-radius: 1000px;
-    position: absolute;
-    z-index: 0;
-    bottom: -60px;
-    filter: blur(80px);
+  width: 200px;
+  height: 81px;
+  background-color: var(--primary);
+  border-radius: 1000px;
+  position: absolute;
+  z-index: 0;
+  bottom: -60px;
+  filter: blur(80px);
+}
+
+@media only screen and (max-width: 1260px) {
+  .content {
+    padding: 0;
+  }
+  .top .heading h2 {
+    font-size: 3.5rem;
+  }
+
+  .top .heading p {
+    width: 72%;
+    font-size: 1.65rem;
+  }
+
+  .container {
+    gap: 2.5rem;
+  }
+
+  .benefits .container .card {
+    padding: 2.5rem;
+  }
+
+  .card .text h4 {
+    font-size: 2rem;
+  }
+
+  .card .text p {
+    font-size: 1.55rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .benefits .container .card {
+    padding: 1.85rem;
+    gap: 3.5rem;
+  }
+
+  .card .icon_container {
+    flex-shrink: 0;
+  }
+
+  .card .text {
+    height: 100%;
+    justify-content: flex-start;
+  }
+
+  .card .text p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .top .heading h2 {
+    font-size: 2.5rem;
+    line-height: 38px;
+  }
+
+  .top .heading p {
+    width: 100%;
+    font-size: 1.55rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  
 }

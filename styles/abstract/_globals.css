@@ -6,8 +6,9 @@
 
 :root {
   font-size: 10px;
-  --font-inter: "Inter", sans-serif;
-  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .box {
@@ -29,15 +30,9 @@ body {
   font-family: var(--font-inter);
 }
 
-
 a {
   color: inherit;
   text-decoration: none;
-}
-
-button,
-a {
-  font-family: var(--font-inter);
 }
 
 /* Screen-reader-only class */
@@ -48,11 +43,10 @@ a {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
 }
-
 
 .flowing-line {
   stroke-dasharray: 50 500;
@@ -78,14 +72,14 @@ a {
 }
 
 .flowing-line-hero {
-  stroke-dasharray: 200 1000; 
+  stroke-dasharray: 200 1000;
   stroke-dashoffset: 0;
   animation: dashMoveHero 2s linear infinite;
 }
 
 @keyframes dashMoveHero {
   to {
-    stroke-dashoffset: 1200; 
+    stroke-dashoffset: 1200;
   }
 }
 
@@ -100,7 +94,6 @@ a {
 .flowing-line-delay-3 {
   animation-delay: 0.9s;
 }
-
 
 /* .delay-1 {
   animation-delay: -0s;
@@ -144,7 +137,6 @@ a {
   }
 }
 
-
 .custom-pagination {
   text-align: center;
 }
@@ -157,7 +149,6 @@ a {
 .swiper-pagination-bullet-active {
   opacity: 1;
 }
-
 
 @media only screen and (max-width: 1000px) {
   .box {
