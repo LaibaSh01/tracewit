@@ -79,37 +79,6 @@
   z-index: 1;
 }
 
-.call_to_action button {
-  cursor: pointer;
-  background-color: var(--primary);
-  border-radius: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  outline: none;
-  padding: 1rem 1.2rem;
-  font-size: 1.6rem;
-  font-family: var(--font-inter);
-  color: var(--zinc-700);
-  font-weight: 500;
-  position: relative;
-  z-index: 1;
-}
-
-.call_to_action button span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0.35rem;
-  padding-left: 1rem;
-}
-
-.call_to_action button span svg {
-  width: 16px;
-  height: 16px;
-}
-
 .content_glow1,
 .content_glow2 {
   width: 245.14px;
@@ -131,7 +100,7 @@
   bottom: -90px;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .content_container {
     width: 100%;
     height: auto;

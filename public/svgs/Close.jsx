@@ -10,16 +10,16 @@ export default function Close() {
       <path
         d="M12.7852 21.2426L21.2704 12.7574"
         stroke="#FAFAFA"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21.2704 21.2426L12.7852 12.7574"
         stroke="#FAFAFA"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

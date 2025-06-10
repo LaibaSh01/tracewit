@@ -71,7 +71,7 @@ const secondRowAdvantages = [
 
 export default function Advantages() {
   return (
-    <section className={styles.advantages} aria-labelledby="advantages-heading">
+    <section id="teams" className={styles.advantages} aria-labelledby="advantages-heading">
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>

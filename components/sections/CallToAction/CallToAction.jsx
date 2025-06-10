@@ -2,6 +2,7 @@ import styles from "./CallToAction.module.css";
 import LineArrow from "@/public/svgs/LineArrow";
 import LinesRight from "@/public/svgs/LinesRight";
 import LinesLeft from "@/public/svgs/LinesLeft";
+import CtaButton from "@/components/ui/CtaButton";
 
 export default function CallToAction() {
   return (
@@ -22,12 +23,7 @@ export default function CallToAction() {
               Be among the first to experience no-code, AI-enhanced
               observability and testing. Limited early access spots available.
             </p>
-            <button aria-label="Book a demo of Tracewit platform">
-              Book a demo{" "}
-              <span aria-hidden="true">
-                <LineArrow />
-              </span>
-            </button>
+            <CtaButton variant="filled">Book Now</CtaButton>
           </div>
         </div>
 

@@ -30,7 +30,7 @@ export default function Product() {
       description: "Full visibility across services and APIs. Detect risks and bottlenecks automatically. Say goodbye to hard-coded event tracking. Our deployed agent passively collects requests, responses, user activity, and service metrics — no engineering effort required. Filter what it collects straight from the UI.",
       media: <Product3 aria-label="Full stack Observability illustration" />,
       mediaPosition: "right",
-      customClass: styles.product_custom
+      customclassName: styles.product_custom
     },
     {
       id: 3,
@@ -69,12 +69,12 @@ export default function Product() {
         </video>
       ),
       mediaPosition: "right",
-      customClass: styles.product3
+      customclassName: styles.product3
     }
   ];
 
   return (
-    <section className={styles.product} aria-labelledby="product-heading">
+    <section id="products" className={styles.product} aria-labelledby="product-heading">
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
@@ -105,7 +105,7 @@ export default function Product() {
                   </a>
                 </div>
                 {feature.mediaPosition === "right" && (
-                  <div className={`${styles.product_video} ${feature.customClass || ''}`}>
+                  <div className={`${styles.product_video} ${feature.customclassName || ''}`}>
                     {feature.media}
                   </div>
                 )}

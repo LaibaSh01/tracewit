@@ -1,0 +1,76 @@
+.cta_button {
+  font-family: var(--font-inter);
+  cursor: pointer;
+  width: max-content;
+  border-radius: 1000px;
+  padding: 0.95rem 1.85rem;
+  background: var(--primary);
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 1.65rem;
+  letter-spacing: -0.3px;
+  color: var(--zinc-700);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  position: relative;
+  transition: all 0.3s ease;
+  padding-right: 1.85rem;
+}
+
+.cta_button svg {
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 1rem;
+}
+
+.cta_button svg path {
+  stroke: var(--zinc-600);
+}
+
+.cta_button:hover {
+  padding-right: 3.5rem;
+  color: var(--zinc-600);
+}
+
+.cta_button:hover svg {
+  opacity: 1;
+  transform: translateX(0);
+  display: flex;
+}
+.cta_button__filled {
+  background: var(--primary);
+  color: var(--zinc-700);
+}
+
+.cta_button__outline {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.cta_button__ghost {
+  background: transparent;
+  color: var(--zinc-700);
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .cta_button {
+    font-size: 1.45rem;
+    padding: 0.85rem 3.5rem 0.85rem 1.5rem;
+  }
+
+  .cta_button svg {
+    opacity: 1;
+    transform: translate(0);
+    display: flex;
+  }
+}

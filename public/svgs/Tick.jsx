@@ -1,14 +1,14 @@
 export default function Tick() {
   return (
     <svg
-      width="14"
-      height="10"
-      viewBox="0 0 14 10"
+      width="25"
+      height="24"
+      viewBox="0 0 23 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M1 5L4.99448 9L13 1"
+        d="M11 11L14.9945 15L23 7"
         stroke="white"
         strokeWidth="1.5"
         strokeLinecap="round"

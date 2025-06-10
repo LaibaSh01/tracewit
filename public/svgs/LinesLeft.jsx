@@ -52,7 +52,7 @@ export default function LinesLeft() {
           y2="165.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -63,7 +63,7 @@ export default function LinesLeft() {
           y2="312.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -74,7 +74,7 @@ export default function LinesLeft() {
           y2="363.226"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -85,7 +85,7 @@ export default function LinesLeft() {
           y2="425.759"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -96,7 +96,7 @@ export default function LinesLeft() {
           y2="201.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -107,7 +107,7 @@ export default function LinesLeft() {
           y2="262.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -118,7 +118,7 @@ export default function LinesLeft() {
           y2="347.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -129,7 +129,7 @@ export default function LinesLeft() {
           y2="394.802"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.288462" stop-color="#CCFE05" />
+          <stop offset="0.288462" stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -140,7 +140,7 @@ export default function LinesLeft() {
           y2="479.954"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
+          <stop stopColor="#CCFE05" />
           <stop offset="1" />
         </linearGradient>
       </defs>

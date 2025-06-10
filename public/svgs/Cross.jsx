@@ -10,16 +10,16 @@ export default function Cross() {
       <path
         d="M8.24609 16.7279L16.7314 8.24264"
         stroke="#FAFAFA"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.7314 16.7279L8.24609 8.24263"
         stroke="#FAFAFA"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

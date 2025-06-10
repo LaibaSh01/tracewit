@@ -61,7 +61,7 @@ export default function Comparison() {
             <div className={styles.comparison_grid_item} role="rowgroup">
               <div className={styles.company_name} role="rowheader">
                 <Building aria-hidden="true" />
-                <h5>Competitors</h5>
+                <h5>Others</h5>
               </div>
               <div
                 className={`${styles.comparison_list_container} ${styles.others}`}

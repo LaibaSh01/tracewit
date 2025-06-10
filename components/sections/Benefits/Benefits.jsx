@@ -7,7 +7,7 @@ import Label from "@/components/ui/Label";
 
 export default function Benefits() {
   return (
-    <section className={styles.benefits} aria-labelledby="benefits-heading">
+    <section id="benefits" className={styles.benefits} aria-labelledby="benefits-heading">
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>

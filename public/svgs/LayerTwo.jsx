@@ -7,65 +7,65 @@ export default function LayerTwo() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M96.5785 35.0029C154.559 68.6942 286.078 215.5 287.574 266.003"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
         <path
-          class="flowing-line-reverse delay-1"
+          className="flowing-line-reverse delay-1"
           d="M96.5785 35.0029C154.559 68.6942 286.078 215.5 287.574 266.003"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M205.575 29C227.482 52.8297 291.187 211.819 287.575 266"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
         <path
-          class="flowing-line-reverse delay-2"
+          className="flowing-line-reverse delay-2"
           d="M205.575 29C227.482 52.8297 291.187 211.819 287.575 266"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
 
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M323.074 30.5C313.426 70.4383 287.574 232.323 287.574 265"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
         <path
-          class="flowing-line-reverse delay-3"
+          className="flowing-line-reverse delay-3"
           d="M323.074 30.5C313.426 70.4383 287.574 232.323 287.574 265"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
 
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M436.3 43.4197C387.301 83.9863 313.178 156.1 287.079 265.5"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
         <path
-          class="flowing-line-reverse delay-4"
+          className="flowing-line-reverse delay-4"
           d="M436.3 43.4197C387.301 83.9863 313.178 156.1 287.079 265.5"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
@@ -111,7 +111,7 @@ export default function LayerTwo() {
         />
       </g>
 
-      <g class="floating-group">
+      <g className="floating-group">
         <g>
           <path
             d="M290 768.935V739.609L324.279 758.13L357 741.152V772.022L324.279 789L290 768.935Z"
@@ -234,9 +234,9 @@ export default function LayerTwo() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -269,9 +269,9 @@ export default function LayerTwo() {
           width="143.953"
           height="89.6328"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -304,9 +304,9 @@ export default function LayerTwo() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -339,9 +339,9 @@ export default function LayerTwo() {
           width="239.887"
           height="149.012"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -374,9 +374,9 @@ export default function LayerTwo() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -409,9 +409,9 @@ export default function LayerTwo() {
           width="255.195"
           height="158.559"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -444,9 +444,9 @@ export default function LayerTwo() {
           width="102.484"
           height="106.17"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -479,9 +479,9 @@ export default function LayerTwo() {
           width="102.484"
           height="106.17"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -514,9 +514,9 @@ export default function LayerTwo() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -549,9 +549,9 @@ export default function LayerTwo() {
           width="219.297"
           height="133.793"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -585,8 +585,8 @@ export default function LayerTwo() {
           y2="734"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#27272A" />
-          <stop offset="1" stop-color="#868690" />
+          <stop stopColor="#27272A" />
+          <stop offset="1" stopColor="#868690" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_622_1359"
@@ -596,8 +596,8 @@ export default function LayerTwo() {
           y2="1101"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#27272A" />
-          <stop offset="1" stop-color="#868690" />
+          <stop stopColor="#27272A" />
+          <stop offset="1" stopColor="#868690" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_622_1359"
@@ -607,8 +607,8 @@ export default function LayerTwo() {
           y2="644"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#27272A" />
-          <stop offset="1" stop-color="#868690" />
+          <stop stopColor="#27272A" />
+          <stop offset="1" stopColor="#868690" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_622_1359"
@@ -618,12 +618,12 @@ export default function LayerTwo() {
           y2="551"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#27272A" />
-          <stop offset="1" stop-color="#868690" />
+          <stop stopColor="#27272A" />
+          <stop offset="1" stopColor="#868690" />
         </linearGradient>
         <linearGradient id="paint3_linear_2_3" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#CCFE05" stop-opacity="1" />
-          <stop offset="100%" stop-color="#CCFE05" stop-opacity="0" />
+          <stop offset="0%" stopColor="#CCFE05" stopOpacity="1" />
+          <stop offset="100%" stopColor="#CCFE05" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

@@ -41,17 +41,26 @@
   padding: 0;
 }
 
-.nav ul li {
+.nav ul li button {
   color: var(--zinc-400);
   font-size: 1.65rem;
   font-weight: 300;
   cursor: pointer;
   transition: color 0.3s ease;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-inter);
 }
 
-.nav ul li:hover {
+.nav ul li button:hover {
   color: var(--primary);
 }
+
+.nav ul li button.active, 
+.mobile_nav ul li button.active {
+  color: var(--primary) !important;
+} 
 
 .actions {
   display: flex;

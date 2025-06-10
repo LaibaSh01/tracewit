@@ -10,13 +10,13 @@ import Label from "@/components/ui/Label";
 
 export default function Features() {
   return (
-    <section className={styles.features}>
+    <section className={styles.features} aria-labelledby="features-heading">
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
             <Label text="Features" />
             <div className={styles.heading}>
-              <h2>
+              <h2 id="features-heading">
                 Built to <span>Replace</span> Complexity with Clarity
               </h2>
               <p>
@@ -26,82 +26,84 @@ export default function Features() {
               </p>
             </div>
           </div>
-          <div className={styles.container}>
-            <div className={styles.feature_item}>
-              <div className={styles.icon_container}>
+          <div className={styles.container} role="list">
+            <div className={styles.feature_item} role="listitem" aria-labelledby="feature1">
+              <div className={styles.icon_container} aria-hidden="true">
                 <div className={styles.inner_container}>
-                  <Programming />
+                  <Programming aria-label="Low-code setup icon" />
                 </div>
               </div>
               <div className={styles.text}>
-                <h4>Low-code setup</h4>
+                <h4 id="feature1">Low-code setup</h4>
                 <p>
                   Minimal integration—get started without deep code changes or
                   heavy SDKs.
                 </p>
               </div>
             </div>
-            <div className={styles.feature_item}>
-              <div className={styles.icon_container}>
+            <div className={styles.feature_item} role="listitem" aria-labelledby="feature2">
+              <div className={styles.icon_container} aria-hidden="true">
                 <div className={styles.inner_container}>
-                  <Platform />
+                  <Platform aria-label="One platform icon" />
                 </div>
               </div>
               <div className={styles.text}>
-                <h4>One platform</h4>
+                <h4 id="feature2">One platform</h4>
                 <p>
                   Unify analytics, experimentation, and observability—no need
                   for multiple vendors.
                 </p>
               </div>
             </div>
-            <div className={styles.feature_item}>
-              <div className={styles.icon_container}>
+            <div className={styles.feature_item} role="listitem" aria-labelledby="feature3">
+              <div className={styles.icon_container} aria-hidden="true">
                 <div className={styles.inner_container}>
-                  <Analytics />
+                  <Analytics aria-label="LLM-native analytics icon" />
                 </div>
               </div>
               <div className={styles.text}>
-                <h4>LLM-native analytics</h4>
+                <h4 id="feature3">LLM-native analytics</h4>
                 <p>
                   Use natural language to explore data—no SQL or dashboards
                   required.
                 </p>
               </div>
             </div>
-            <div className={styles.feature_item}>
-              <div className={styles.icon_container}>
+            <div className={styles.feature_item} role="listitem" aria-labelledby="feature4">
+              <div className={styles.icon_container} aria-hidden="true">
                 <div className={styles.inner_container}>
-                  <Pipeline />
+                  <Pipeline aria-label="Unified pipeline icon" />
                 </div>
               </div>
               <div className={styles.text}>
-                <h4>Unified pipeline</h4>
+                <h4 id="feature4">Unified pipeline</h4>
                 <p>
                   Streamline ETL, monitoring, and testing in a single,
                   integrated workflow.
                 </p>
               </div>
             </div>
-<div className={styles.pulsing_logo_wrapper}>
-  <div className={styles.pulsing_logo}>
-    <Image src={CircleLogo} alt="circle logo" />
-    <span className={styles.pulse_ring}></span>  {/* Third pulse ring */}
-  </div>
-</div>
+            <div className={styles.pulsing_logo_wrapper} aria-hidden="true">
+              <div className={styles.pulsing_logo}>
+                <Image 
+                  src={CircleLogo} 
+                  alt="" 
+                  aria-hidden="true"
+                />
+                <span className={styles.pulse_ring}></span>
+              </div>
+            </div>
 
-
-
-            <div className={styles.divider}>
+            <div className={styles.divider} aria-hidden="true">
               <div className={styles.flowing_linear}></div>
             </div>
-            <div className={`${styles.divider} ${styles.divider_left}`}>
+            <div className={`${styles.divider} ${styles.divider_left}`} aria-hidden="true">
               <div className={styles.flowing_linear}></div>
             </div>
-            <div className={`${styles.divider} ${styles.divider_right}`}>
+            <div className={`${styles.divider} ${styles.divider_right}`} aria-hidden="true">
               <div className={styles.flowing_linear}></div>
             </div>
-            <div className={`${styles.divider} ${styles.divider_bottom}`}>
+            <div className={`${styles.divider} ${styles.divider_bottom}`} aria-hidden="true">
               <div className={styles.flowing_linear}></div>
             </div>
           </div>

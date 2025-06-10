@@ -10,7 +10,7 @@ import Label from "@/components/ui/Label";
 
 export default function Platforms() {
   return (
-    <section className={styles.platforms}>
+    <section id="platforms" className={styles.platforms}>
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>

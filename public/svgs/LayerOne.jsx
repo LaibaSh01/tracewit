@@ -34,7 +34,7 @@ export default function LayerOne() {
         <path
           d="M271.903 383L30 240.799L277.492 97L517 240.799L271.903 383Z"
           fill="url(#paint1_linear_2_3)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g filter="url(#filter3_d_2_3)">
@@ -55,69 +55,69 @@ export default function LayerOne() {
           fill="#FAFAFA"
         />
       </g>
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M201.667 679.604C223.573 655.774 275.231 516.785 271.619 462.604"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
 
         <path
-          class="flowing-line"
+          className="flowing-line"
           d="M201.667 679.604C223.573 655.774 275.231 516.785 271.619 462.604"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M313.963 682.604C304.431 649.494 271.963 489.695 271.963 462.604"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
 
         <path
-          class="flowing-line"
+          className="flowing-line"
           d="M313.963 682.604C304.431 649.494 271.963 489.695 271.963 462.604"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
 
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M418.902 682.62C369.903 642.054 298.061 572.004 271.962 462.604"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
 
         <path
-          class="flowing-line"
+          className="flowing-line"
           d="M418.902 682.62C369.903 642.054 298.061 572.004 271.962 462.604"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
 
-      <g class="flowing-group">
+      <g className="flowing-group">
         <path
           d="M91.8443 679.604C149.826 645.913 245.844 544.604 270.842 462.605"
           stroke="#27272A"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
 
         <path
-          class="flowing-line"
+          className="flowing-line"
           d="M91.8443 679.604C149.826 645.913 245.844 544.604 270.842 462.605"
           stroke="url(#paint3_linear_2_3)"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
         />
       </g>
@@ -130,9 +130,9 @@ export default function LayerOne() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -165,9 +165,9 @@ export default function LayerOne() {
           width="143.391"
           height="88.627"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -200,9 +200,9 @@ export default function LayerOne() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -238,9 +238,9 @@ export default function LayerOne() {
           width="186.871"
           height="114.339"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -273,9 +273,9 @@ export default function LayerOne() {
           width="547"
           height="346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -308,9 +308,9 @@ export default function LayerOne() {
           width="237.406"
           height="152.274"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -344,8 +344,8 @@ export default function LayerOne() {
           y2="463"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#27272A" />
-          <stop offset="1" stop-color="#868690" />
+          <stop stopColor="#27272A" />
+          <stop offset="1" stopColor="#868690" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_2_3"
@@ -355,8 +355,8 @@ export default function LayerOne() {
           y2="383"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCFE05" />
-          <stop offset="1" stop-color="#868690" stop-opacity="0.25" />
+          <stop stopColor="#CCFE05" />
+          <stop offset="1" stopColor="#868690" stopOpacity="0.25" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_2_3"
@@ -366,13 +366,13 @@ export default function LayerOne() {
           y2="286"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#27272A" />
-          <stop offset="1" stop-color="#868690" />
+          <stop stopColor="#27272A" />
+          <stop offset="1" stopColor="#868690" />
         </linearGradient>
         <linearGradient id="paint3_linear_2_3" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#CCFE05" stop-opacity="0" />
-          <stop offset="50%" stop-color="#CCFE05" stop-opacity="1" />
-          <stop offset="100%" stop-color="#CCFE05" stop-opacity="0" />
+          <stop offset="0%" stopColor="#CCFE05" stopOpacity="0" />
+          <stop offset="50%" stopColor="#CCFE05" stopOpacity="1" />
+          <stop offset="100%" stopColor="#CCFE05" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

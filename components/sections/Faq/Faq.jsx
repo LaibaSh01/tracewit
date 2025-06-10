@@ -42,7 +42,7 @@ export default function Faq() {
   };
 
   return (
-    <section className={styles.faqs} aria-labelledby="faq-heading">
+    <section id="faqs" className={styles.faqs} aria-labelledby="faq-heading">
       <div className="box">
         <div className={styles.content}>
           <div className={styles.top}>
