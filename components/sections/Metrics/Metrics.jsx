@@ -20,12 +20,12 @@ export default function Metrics() {
           <div className={styles.container}>
             <div className={styles.swiper_container}>
               <Swiper
-                // modules={[Pagination, Autoplay]}
-                // pagination={{ el: ".custom-pagination", clickable: true }}
-                // autoplay={{
-                //   delay: 3000,
-                //   disableOnInteraction: false,
-                // }}
+                modules={[Pagination, Autoplay]}
+                pagination={{ el: ".custom-pagination", clickable: true }}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
               >
                 <SwiperSlide>
                   <div className={styles.slide_wrapper}>
