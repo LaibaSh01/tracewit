@@ -11,6 +11,7 @@ import Benefits from "@/components/sections/Benefits/Benefits";
 import Metrics from "@/components/sections/Metrics/Metrics";
 import Platforms from "@/components/sections/Platforms/Platforms";
 import Features from "@/components/sections/Features/Features";
+import Quote from "@/components/sections/Quote/Quote";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Product />
         <Platforms />
+        <Quote />
         <Metrics />
         <Comparison />
         <Advantages />

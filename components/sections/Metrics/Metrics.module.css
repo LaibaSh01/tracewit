@@ -234,6 +234,240 @@
   line-height: 28px;
 }
 
+.container .metric_item .left_column.second {
+  padding: 1.2rem 2.2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.container .metric_item .left_column.second span.tag {
+  font-size: 1.55rem;
+  font-weight: 300;
+  color: var(--primary);
+  padding: 0.75rem 2.2rem;
+  background-color: var(--zinc-800);
+  border: 1px solid var(--primary);
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .metric_item .left_column.second .architecture {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.35rem;
+}
+
+.left_column.second .architecture .arch_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_column.second .architecture .arch_top .arch_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 1.2rem;
+  border: 1px solid var(--zinc-700);
+  border-radius: 12px;
+  background-color: var(--zinc-900);
+}
+
+.architecture .arch_top .arch_container .icon,
+.architecture .arch_container_services .icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #353539;
+  border: 1px solid var(--zinc-700);
+  border-radius: 4px;
+}
+
+.architecture .arch_top .arch_container .arch_info,
+.architecture .arch_container_services .arch_info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.architecture .arch_top .arch_container .arch_info h6,
+.architecture .arch_container_services .arch_info h6 {
+  color: var(--white);
+  font-size: 1.65rem;
+  font-weight: 300;
+}
+
+.architecture .arch_top .arch_container .arch_info .bar {
+  width: 100%;
+  height: 12px;
+  border-radius: 8px;
+  background-color: var(--zinc-700);
+}
+
+.architecture .arch_top .connector {
+  width: 250px;
+  height: 1px;
+  border-bottom: 1px dashed var(--primary);
+}
+
+.architecture .arch_container_services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  border: 1px dashed var(--zinc-700);
+  border-radius: 12px;
+  padding: 1.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.architecture .arch_container_services.API {
+  border: 1px dashed var(--primary);
+}
+
+.architecture .arch_container_services .arch_info .bar {
+  width: 65%;
+  height: 12px;
+  border-radius: 8px;
+  background-color: var(--zinc-700);
+}
+
+.architecture .arch_container_services .glow {
+  width: 97px;
+  height: 90px;
+  background-color: var(--primary);
+  filter: blur(100px);
+  position: absolute;
+  top: -137px;
+  right: 0;
+}
+
+.container .metric_item .left_column.third {
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+  gap: 13rem;
+  padding: 2rem 3.2rem;
+}
+
+.container .metric_item .left_column.third .glow {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: var(--primary);
+  width: 77px;
+  height: 70px;
+  filter: blur(60px);
+}
+
+.container .metric_item .left_column.third .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.container .metric_item .left_column.third .top span.tag {
+  font-size: 1.55rem;
+  font-weight: 300;
+  color: var(--primary);
+  padding: 0.75rem 2.2rem;
+  background-color: var(--zinc-800);
+  border: 1px solid var(--primary);
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .metric_item .left_column.third .top p {
+  font-size: 1.65rem;
+  color: var(--zinc-500);
+  font-weight: 300;
+}
+
+.metric_item .left_column.third .chat {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.metric_item .left_column.third .chat .input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid var(--zinc-600);
+  background-color: var(--zinc-900);
+}
+
+.metric_item .left_column.third .chat .input p {
+  font-size: 1.65rem;
+  color: var(--zinc-600);
+  font-weight: 300;
+}
+
+.metric_item .left_column.third .chat .suggestion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding-bottom: 2rem;
+}
+
+.metric_item .left_column.third .chat .suggestion h6 {
+  color: var(--zinc-400);
+  font-size: 1.65rem;
+  font-weight: 300;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--zinc-900);
+  border-radius: 12px;
+  letter-spacing: -0.3px;
+}
+
+.metric_item .left_column.third .chat .suggestion h6:first-child {
+  transform: rotate(8deg);
+}
+.metric_item .left_column.third .chat .suggestion h6:last-child {
+  transform: rotate(7deg);
+}
+
+.container .metric_item .left_column.fourth, .container .metric_item .left_column.fifth {
+     height: 437px;
+}
+
+.container .metric_item .left_column.fifth > img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 1260px) {
   .content {
     padding: 0;

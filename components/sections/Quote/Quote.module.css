@@ -1,0 +1,109 @@
+.quote {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15rem 0 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5.2rem;
+  padding: 0 5rem;
+}
+
+.content .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24rem;
+}
+
+.top h2 {
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+
+.top h2 .next_line {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: var(--zinc-600);
+}
+
+.top h2 .gradient {
+  background: linear-gradient(to right, #ffffff 0%, #ccfe05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content .quote_glow {
+  position: absolute;
+  bottom: -454px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 602.24px;
+  height: 469px;
+  background: linear-gradient(180deg, #ccfe05 0%, rgba(122, 152, 3, 0) 100%);
+  filter: blur(200px);
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.bottom .insights_item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  position: relative;
+}
+
+.bottom .insights_item span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid var(--primary);
+  border-radius: 1000px;
+  color: var(--white-6);
+  font-size: 1.8rem;
+  white-space: nowrap;
+  font-weight: 300;
+  padding: 1.2rem 2rem;
+}
+
+.bottom .insights_item span.first {
+  transform: translateX(-251px) rotate(-9deg);
+  bottom: 52px;
+}
+
+.bottom .insights_item span.second {
+  bottom: 12px;
+}
+
+.bottom .insights_item span.third {
+  bottom: 58px;
+  transform: translateX(-4%);
+}
+
+.bottom .insights_item span.fourth {
+  transform: translateX(60%) rotate(-14.51deg);
+  bottom: 20px;
+}

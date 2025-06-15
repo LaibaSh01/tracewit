@@ -137,6 +137,19 @@ a {
   }
 }
 
+.animated-stroke {
+  stroke-dasharray: 7 7;
+  stroke-dashoffset: 0;
+  animation: dashFlow 1.5s linear infinite;
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -14;
+  }
+}
+
+
 .custom-pagination {
   text-align: center;
 }

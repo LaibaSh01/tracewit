@@ -7,6 +7,7 @@ import Streamwit from "@/public/images/Streamwit.png";
 import LayerOne from "@/public/svgs/LayerOne";
 import LayerTwo from "@/public/svgs/LayerTwo";
 import Label from "@/components/ui/Label";
+import PlatformLayers from "@/public/svgs/PlatformLayers";
 
 export default function Platforms() {
   return (
@@ -26,38 +27,7 @@ export default function Platforms() {
             </div>
           </div>
           <div className={styles.container}>
-            <LayerOne />
-            <div className={styles.platforms_logo_container}>
-              <div className={styles.platform_logo_item}>
-                <div className={styles.platform_logo_icon}>
-                    <Image src={ABProxy} alt="ABwit"/>
-                    
-                </div>
-                <span>ABwit</span>
-              </div>
-              <div className={styles.platform_logo_item}>
-                <div className={styles.platform_logo_icon}>
-                    <Image src={Grafwit} alt="Grafwit"/>
-                    
-                </div>
-                <span>Grafwit</span>
-              </div>
-              <div className={styles.platform_logo_item}>
-                <div className={styles.platform_logo_icon}>
-                    <Image src={Terrawit} alt="Terrawit"/>
-                    
-                </div>
-                <span>Terrawit</span>
-              </div>
-              <div className={styles.platform_logo_item}>
-                <div className={styles.platform_logo_icon}>
-                    <Image src={Streamwit} alt="Streamwit"/>
-                    
-                </div>
-                <span>Streamwit</span>
-              </div>
-            </div>
-            <LayerTwo />
+            <PlatformLayers />
           </div>
         </div>
       </div>
