@@ -128,7 +128,7 @@
 
 .hero_content .email_container:focus-within,
 .hero_content .email_container:hover {
-  border-color: var(--zinc-600); 
+  border-color: var(--zinc-600);
 }
 
 .hero_content .email_container input {
@@ -159,6 +159,38 @@
   justify-content: center;
   bottom: -146px;
   left: 0;
+}
+
+@media (min-width: 1920px) and (max-width: 3839px) {
+  .hero_content {
+    gap: 6.85rem;
+  }
+  .hero_top h6 {
+    font-size: 2.55rem;
+  }
+  .hero_top .avatar img {
+    width: 42px;
+    height: 42px;
+  }
+  .heading h1 {
+    font-size: 11rem;
+  }
+  .heading p {
+    font-size: 2.65rem;
+    width: 75%;
+    line-height: 42px;
+  }
+  .hero_content .email_container {
+    padding: 1.2rem;
+  }
+  .hero_content .email_container input {
+    width: 350px;
+    font-size: 2.15rem;
+  }
+  
+.hero_content .email_container input::placeholder {
+  font-size: 2.15rem;
+}
 }
 
 @media only screen and (max-width: 1160px) {

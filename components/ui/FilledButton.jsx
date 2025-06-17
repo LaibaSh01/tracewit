@@ -5,7 +5,7 @@ export default function FilledButton() {
     <div className={styles.filled_btn}>
       <div className={styles.background_gradient}>
         <div className={styles.main_btn_wrapper}>
-          <button className={styles.main_btn}>Book a Demo</button>
+          <button className={styles.main_btn}>Contact Us</button>
           <div className={styles.button_glow}></div>
         </div>
       </div>
