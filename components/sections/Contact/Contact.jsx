@@ -121,7 +121,7 @@ export default function Contact() {
               <div className={styles.input_container}>
                 <label>Message</label>
                 <textarea
-                  placeholder="Write a message"
+                  placeholder="write a message"
                   rows={6}
                   className={styles.textarea}
                 ></textarea>

@@ -90,7 +90,11 @@ export default function Header() {
             </nav>
 
             <div className={styles.actions}>
-              <FilledButton className={styles.desktop_button} />
+              <FilledButton
+  className={styles.desktop_button}
+  onClick={() => router.push("/contact")}
+/>
+
               <button
                 className={styles.mobile_menu_button}
                 onClick={toggleMobileMenu}
