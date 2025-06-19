@@ -20,7 +20,7 @@ export default function Header() {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
     setIsMobileMenuOpen(false);
     setActiveSection(sectionId);
@@ -31,29 +31,34 @@ export default function Header() {
     { label: "Platforms", sectionId: "platforms" },
     { label: "Teams", sectionId: "teams" },
     { label: "Benefits", sectionId: "benefits" },
-    { label: "Faqs", sectionId: "faqs" }
+    { label: "Faqs", sectionId: "faqs" },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = navItems.map(item => document.getElementById(item.sectionId));
+      const sections = navItems.map((item) =>
+        document.getElementById(item.sectionId)
+      );
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
         if (!section) continue;
-        
+
         const sectionTop = section.offsetTop;
         const sectionHeight = section.offsetHeight;
-        
-        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+
+        if (
+          scrollPosition >= sectionTop &&
+          scrollPosition < sectionTop + sectionHeight
+        ) {
           setActiveSection(section.id);
           break;
         }
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -65,21 +70,21 @@ export default function Header() {
               isMobileMenuOpen ? styles.opened : ""
             }`}
           >
-            <Image 
-              src={Logo} 
-              alt="Tracewit Logo" 
-              onClick={() => router.push('/')}
-              style={{ cursor: 'pointer' }}
+            <Image
+              src={Logo}
+              alt="Tracewit Logo"
+              onClick={() => router.push("/")}
+              style={{ cursor: "pointer" }}
             />
 
             <nav className={styles.nav}>
               <ul>
                 {navItems.map((item) => (
                   <li key={item.sectionId}>
-                    <button 
+                    <button
                       onClick={() => scrollToSection(item.sectionId)}
                       className={`${styles.nav_link} ${
-                        activeSection === item.sectionId ? styles.active : ''
+                        activeSection === item.sectionId ? styles.active : ""
                       }`}
                     >
                       {item.label}
@@ -91,9 +96,9 @@ export default function Header() {
 
             <div className={styles.actions}>
               <FilledButton
-  className={styles.desktop_button}
-  onClick={() => router.push("/contact")}
-/>
+                className={styles.desktop_button}
+                onClick={() => router.push("/contact")}
+              />
 
               <button
                 className={styles.mobile_menu_button}
@@ -117,10 +122,10 @@ export default function Header() {
           <ul>
             {navItems.map((item) => (
               <li key={`mobile-${item.sectionId}`}>
-                <button 
+                <button
                   onClick={() => scrollToSection(item.sectionId)}
                   className={`${styles.mobile_nav_link} ${
-                    activeSection === item.sectionId ? styles.active : ''
+                    activeSection === item.sectionId ? styles.active : ""
                   }`}
                 >
                   {item.label}
