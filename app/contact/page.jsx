@@ -1,29 +1,30 @@
 import Header from "@/components/layout/Header/Header";
 import styles from "../page.module.css";
-import Hero from "@/components/sections/Hero/Hero";
-import Product from "@/components/sections/Product/Product";
-import Comparison from "@/components/sections/Comparison/Comparison";
-import Advantages from "@/components/sections/Advantages/Advantages";
 import Faq from "@/components/sections/Faq/Faq";
-import CallToAction from "@/components/sections/CallToAction/CallToAction";
 import Footer from "@/components/layout/Footer/Footer";
-import Benefits from "@/components/sections/Benefits/Benefits";
-import Metrics from "@/components/sections/Metrics/Metrics";
-import Platforms from "@/components/sections/Platforms/Platforms";
-import Features from "@/components/sections/Features/Features";
-import Quote from "@/components/sections/Quote/Quote";
 import Contact from "@/components/sections/Contact/Contact";
 
-export default function Home() {
+export const metadata = {
+  title: "Contact Tracewit | Get Support & Sales Information",
+  description: "Reach out to our team for technical support, sales inquiries, or partnership opportunities. We offer hassle-free 24/7 support for our AI-powered analytics platform.",
+  keywords: [
+    "Tracewit contact",
+    "analytics platform support",
+    "A/B testing support",
+    "data pipeline help",
+    "technical inquiry"
+  ],
+}
+
+export default function ContactPage() {
   return (
     <div className={styles.tracewit}>
       <main>
-        <Header/>
+        <Header />
         <Contact />
         <Faq />
         <Footer />
       </main>
-      
     </div>
   );
 }

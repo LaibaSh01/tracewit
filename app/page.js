@@ -13,11 +13,23 @@ import Platforms from "@/components/sections/Platforms/Platforms";
 import Features from "@/components/sections/Features/Features";
 import Quote from "@/components/sections/Quote/Quote";
 
+export const metadata = {
+  title: "Tracewit | Unified AI-Powered A/B Testing & Analytics Platform",
+  description: "No-code platform combining A/B testing, observability, analytics & data flow with AI-powered insights. Reduce engineering effort by 98%.",
+  keywords: [
+    "A/B testing platform",
+    "no-code analytics",
+    "AI-powered observability",
+    "data pipeline",
+    "product experimentation"
+  ],
+}
+
 export default function Home() {
   return (
     <div className={styles.tracewit}>
       <main>
-        <Header/>
+        <Header />
         <Hero />
         <Product />
         <Platforms />
@@ -31,7 +43,6 @@ export default function Home() {
         <CallToAction />
         <Footer />
       </main>
-      
     </div>
   );
 }
