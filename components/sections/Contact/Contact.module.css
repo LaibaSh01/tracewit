@@ -196,6 +196,18 @@
   font-family: var(--inter-font);
 }
 
+.form .input_container input:focus,
+.form .input_container textarea:focus {
+  border: 1px solid var(--zinc-700);
+}
+
+.form .input_container input,
+.form .input_container textarea {
+  border: 1px solid transparent;
+  transition: border 0.3s ease;
+}
+
+
 .form .input_container textarea {
   resize: vertical;
 }

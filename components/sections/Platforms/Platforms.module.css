@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 5.2rem;
+  gap: 8.5rem;
   padding: 0 5rem;
 }
 
@@ -64,36 +64,113 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .container .platforms_logo_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3.8rem;
-    margin-top: -2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.8rem;
+  margin-top: -2.8rem;
 }
 
 .platforms_logo_container .platform_logo_item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .platform_logo_item .platform_logo_icon {
-    width: 79px;
-    height: 79px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    border: 1px solid var(--zinc-800);
+  width: 79px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid var(--zinc-800);
 }
 
 .platform_logo_item span {
-font-size: 1.6rem;
-font-weight: 500;
-color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+@property --r {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.filled_btn {
+  display: inline-flex;
+  position: absolute;
+  border-radius: 1000px;
+  overflow: hidden;
+  max-width: 175px;
+  top: 0;
+}
+
+.filled_btn .background_gradient {
+  padding: 0.2rem;
+  border-radius: inherit;
+  background: conic-gradient(from var(--r), var(--zinc-800) 0%, var(--primary) 20%, var(--zinc-800) 30%);
+  width: 100%;
+  height: max-content;
+  animation: rotateBorder 3s linear infinite;
+}
+
+@keyframes rotateBorder {
+  0% {
+    --r: 0deg;
+  }
+  100% {
+    --r: 360deg;
+  }
+}
+
+.filled_btn .main_btn_wrapper {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
+  position: relative;
+  background: var(--zinc-900);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.filled_btn .main_btn {
+  font-family: var(--font-inter);
+  width: 100%;
+  height: max-content;
+  border: none;
+  background: transparent;
+  border-radius: inherit;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--zinc-300);
+  font-weight: 500;
+  font-size: 1.65rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .filled_btn .main_btn {
+    font-size: 1.55rem;
+    padding: 1rem;
+  }
 }

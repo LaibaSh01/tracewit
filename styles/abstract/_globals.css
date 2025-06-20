@@ -35,7 +35,6 @@ a {
   text-decoration: none;
 }
 
-/* Screen-reader-only className */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -68,6 +67,17 @@ a {
 @keyframes dashMove2 {
   from {
     stroke-dashoffset: 550;
+  }
+}
+.flowing-line-rect {
+  stroke-dasharray: 7 7;
+  stroke-dashoffset: 0;
+  animation: dashMove2 3s linear infinite;
+}
+
+@keyframes dashMove2 {
+  to {
+    stroke-dashoffset: -300;
   }
 }
 
@@ -134,18 +144,6 @@ a {
   }
   100% {
     transform: translateY(6px);
-  }
-}
-
-.animated-stroke {
-  stroke-dasharray: 7 7;
-  stroke-dashoffset: 0;
-  animation: dashFlow 1.5s linear infinite;
-}
-
-@keyframes dashFlow {
-  to {
-    stroke-dashoffset: -14;
   }
 }
 

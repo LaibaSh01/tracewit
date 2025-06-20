@@ -20,18 +20,25 @@
 
 .line-left,
 .line-right {
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 50%;
-  transform: translateY(-57%);
+  transform: translateY(-95%);
   z-index: -1;
 }
 
+.line-left svg,
+.line-right svg {
+  width: 100%;
+}
+
 .line-left {
-  left: -160px;
+  left: -496px;
 }
 
 .line-right {
-  right: -160px;
+  right: -564px;
 }
 
 
