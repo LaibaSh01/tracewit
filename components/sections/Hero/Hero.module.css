@@ -224,13 +224,22 @@
     width: 75%;
   }
 
+  .hero_content {
+    padding-bottom: 7.6rem;
+  }
+
   .hero_content .email_container input {
     width: 240px;
+  }
+
+  .flowing_lines {
+    bottom: -243px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .hero_content {
+    padding-bottom: 3.6rem;
     gap: 5rem;
   }
   .hero_top .avatar img {
@@ -259,11 +268,22 @@
   .hero_content .email_container input::placeholder {
     font-size: 1.45rem;
   }
+  .flowing_lines {
+    bottom: -252px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .hero {
     padding-top: 0;
     height: 80vh;
+  }
+
+  .hero_content .heading {
+    gap: 2rem;
+  }
+
+  .heading h1 {
+    line-height: 140%;
   }
 }

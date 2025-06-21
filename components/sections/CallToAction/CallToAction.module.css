@@ -41,7 +41,6 @@
   right: -564px;
 }
 
-
 .content_container {
   width: 750px;
   height: 364px;
@@ -108,6 +107,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .call_to_action {
+    padding: 10rem 0;
+  }
+
   .content_container {
     width: 100%;
     height: auto;
@@ -148,12 +151,12 @@
   }
 
   .content_glow1 {
-  left:  -236px;
-  top: -155px;
-}
+    left: -236px;
+    top: -155px;
+  }
 
-.content_glow2 {
-  right: -236px;
+  .content_glow2 {
+    right: -236px;
     bottom: -155px;
-}
+  }
 }

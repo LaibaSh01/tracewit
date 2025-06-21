@@ -88,6 +88,7 @@
   transform: translateY(-100%);
   transition: transform 0.5s ease;
   padding-top: 7.5rem;
+  overflow: hidden;
 }
 
 .mobile_menu.active {
@@ -104,10 +105,13 @@
   z-index: 1;
 }
 
-.mobile_nav ul li {
+.mobile_nav ul li .mobile_nav_link {
   color: var(--zinc-400);
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 2rem 0;
+  background: transparent;
+  outline: none;
+  border: none;
 }
 
 .mobile_nav ul li:not(:last-child) {

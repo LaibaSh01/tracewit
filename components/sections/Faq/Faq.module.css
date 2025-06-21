@@ -58,7 +58,8 @@
   line-height: 28px;
 }
 
-.container, .dl {
+.container,
+.dl {
   width: 861px;
   display: flex;
   flex-direction: column;
@@ -81,7 +82,8 @@
   overflow: hidden;
 }
 
-.question_item .question, .question_item .dt {
+.question_item .question,
+.question_item .dt {
   width: 100%;
   display: flex;
   align-items: center;
@@ -155,6 +157,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .faqs {
+    padding: 10rem 0;
+  }
   .content {
     padding: 0;
   }
@@ -168,7 +173,8 @@
     width: 62%;
   }
 
-  .container, .dl {
+  .container,
+  .dl {
     width: 100%;
   }
 
@@ -187,6 +193,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .faqs {
+    padding: 3.75rem 0;
+  }
   .top .heading h2 {
     font-size: 2.5rem;
   }
@@ -195,11 +204,13 @@
     width: 100%;
   }
 
-  .question_item .question, .question_item .dt {
+  .question_item .question,
+  .question_item .dt {
     align-items: flex-start;
   }
 
-  .question_item .question svg, .question_item .dt svg {
+  .question_item .question svg,
+  .question_item .dt svg {
     flex-shrink: 0;
     width: 22px;
   }

@@ -207,7 +207,6 @@
   transition: border 0.3s ease;
 }
 
-
 .form .input_container textarea {
   resize: vertical;
 }
@@ -278,7 +277,7 @@
   list-style: none;
   padding: 1rem 0;
   width: 100%;
- box-shadow: 0px 4px 15px 0px #26262685;
+  box-shadow: 0px 4px 15px 0px #26262685;
   position: absolute;
   top: 100%;
   left: 0;
@@ -328,9 +327,80 @@
   color: var(--zinc-600);
 }
 
+@media only screen and (max-width: 1260px) {
+  .contact {
+    padding: 15rem 0;
+  }
+  .contact .content {
+    padding: 0;
+  }
+  .content .left {
+    padding-top: 0;
+  }
+  .top .heading h2 {
+    font-size: 3.5rem;
+  }
+  .support_info .info_item h6 {
+    font-size: 1.55rem;
+  }
+
+  .left .bottom {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+.contact .content {
+  grid-template-columns: 1fr;
+  gap: 7.5rem;
+}
+ .left .bottom {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+   .contact {
+    padding: 15rem 0 10rem;
+  }
+  .top .heading h2 {
+    font-size: 2.5rem;
+    line-height: 38px;
+  }
+
+  .left .top {
+    gap: 2.2rem;
+  }
+
+   .support_info .info_item h6 {
+   line-height: 22px;
+  }
+
+  .support_info .info_item img {
+    margin-bottom: 1.5rem;
+  }
+
+  .left .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .left .bottom .card {
+    padding: 1.85rem;
+    gap: 1.85rem;
+    border-radius: 12px;
+  }
+
+  .left .bottom .card h4 {
+    font-size: 1.65rem;
+  }
+
+  .left .bottom .card p {
+    font-size: 1.55rem;
+  }
+
   .submit_button {
     font-size: 1.45rem;
     padding: 0.85rem 3.5rem 0.85rem 1.5rem;
   }
+  
 }

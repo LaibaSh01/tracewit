@@ -147,6 +147,11 @@ a {
   }
 }
 
+.swiper {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
 
 .custom-pagination {
   text-align: center;

@@ -149,6 +149,9 @@
 }
 
 @media only screen and (max-width: 430px) {
+  .footer {
+    padding: 3.75rem 0 5rem 0;
+  }
   .company_info p {
     width: 100%;
   }

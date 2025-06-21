@@ -179,6 +179,10 @@
 }
 
 @media only screen and (max-width: 1260px) {
+  .product {
+    padding: 20rem 0 15rem 0;
+  }
+
   .content {
     padding: 0;
   }
@@ -194,6 +198,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .product {
+    padding: 20rem 0 10rem 0;
+  }
   .content {
     padding: 0 2.5rem;
   }
@@ -220,6 +227,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .product {
+    padding: 10rem 0 3.75rem 0;
+  }
   .content {
     padding: 0;
   }

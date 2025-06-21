@@ -67,36 +67,8 @@
   position: relative;
 }
 
-.container .platforms_logo_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3.8rem;
-  margin-top: -2.8rem;
-}
-
-.platforms_logo_container .platform_logo_item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.platform_logo_item .platform_logo_icon {
-  width: 79px;
-  height: 79px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  border: 1px solid var(--zinc-800);
-}
-
-.platform_logo_item span {
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: var(--white);
+.container svg {
+  width: 100%;
 }
 
 @property --r {
@@ -117,7 +89,12 @@
 .filled_btn .background_gradient {
   padding: 0.2rem;
   border-radius: inherit;
-  background: conic-gradient(from var(--r), var(--zinc-800) 0%, var(--primary) 20%, var(--zinc-800) 30%);
+  background: conic-gradient(
+    from var(--r),
+    var(--zinc-800) 0%,
+    var(--primary) 20%,
+    var(--zinc-800) 30%
+  );
   width: 100%;
   height: max-content;
   animation: rotateBorder 3s linear infinite;
@@ -168,9 +145,47 @@
   white-space: nowrap;
 }
 
+@media only screen and (max-width: 1260px) {
+  .content {
+    padding: 0;
+  }
+  .top .heading h2 {
+    font-size: 3.5rem;
+  }
+
+  .top .heading p {
+    width: 72%;
+    font-size: 1.65rem;
+  }
+
+  .container {
+    gap: 2.5rem;
+  }
+}
+
 @media only screen and (max-width: 800px) {
+  .platforms {
+    padding: 10rem 0;
+  }
+
   .filled_btn .main_btn {
     font-size: 1.55rem;
     padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top .heading h2 {
+    font-size: 2.5rem;
+    line-height: 38px;
+  }
+
+  .top .heading p {
+    width: 100%;
+    font-size: 1.55rem;
+  }
+
+  .container svg {
+    height: 100%;
   }
 }

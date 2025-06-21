@@ -107,3 +107,60 @@
   transform: translateX(60%) rotate(-14.51deg);
   bottom: 20px;
 }
+
+@media only screen and (max-width: 1260px) {
+  .top h2 {
+    font-size: 3.5rem;
+  }
+  .top h2 .next_line {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .quote {
+    padding: 13.75rem 0 0 0;
+  }
+  .content {
+    padding: 0;
+  }
+
+  .content .quote_glow {
+    bottom: -371px;
+    width: 258.24px;
+  }
+
+  .content .top {
+    gap: 18rem;
+  }
+
+  .top h2 {
+    font-size: 2.5rem;
+    line-height: 38px;
+  }
+
+  .top h2 .next_line {
+    font-size: 1.55rem;
+  }
+
+  .bottom .insights_item span {
+    font-size: 1.45rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .bottom .insights_item span.first {
+    transform: translateX(-180px) rotate(-9deg);
+    bottom: 57px;
+  }
+
+  .bottom .insights_item span.second {
+    transform: translateX(-80%);
+  }
+  .bottom .insights_item span.third {
+    bottom: 60px;
+    transform: translateX(-17%);
+  }
+  .bottom .insights_item span.fourth {
+    transform: translateX(25%) rotate(-14.51deg);
+  }
+}
