@@ -218,4 +218,8 @@
   .container {
     grid-template-columns: 1fr;
   }
+
+  .benefits .container .card {
+    border-radius: 12px;
+  }
 }
